@@ -283,6 +283,13 @@ footer{
                padding: 0;
     }
 
+    #Times>  div {
+        width: 100%;
+        clear:both;
+        height:  150px;
+        padding: 0;
+    }
+
     hr{
         display: none;
     }
@@ -322,6 +329,17 @@ footer{
         padding: 0 20 px;
 }
 
+#photo {
+    column-count: 3;
+}
+
+}
+
+
+@media screen  and ( max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
 }
 
 
